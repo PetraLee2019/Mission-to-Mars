@@ -1,7 +1,7 @@
 Web scrapes data from Mars News related websites, loads the data into mongo db and displays the information in a single HTML page.
 
-![alt tag](https://github.com/PetraLee2019/Plotly/blob/master/newfolder/Images/microbes-sem.jpg?raw=true)
-![alt tag](https://github.com/PetraLee2019/Plotly/blob/master/newfolder/Images/microbes-sem.jpg?raw=true)
+![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_1.png?raw=true)
+![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_3.png)
 
 
 Technology Stack - HTML, CSS, BootStrap, Jupyter, Python
