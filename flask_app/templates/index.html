@@ -33,7 +33,7 @@
                 <div class="col-lg-8 col-md-8 col-sm-12">
                 <h4>Featured Mars Image</h4>
                     <!-- If Images are False/None/Non-Existent, Then Default to Error Message -->
-                    <img src="./static/images/error.png" class="irc_mi" style="max-width:100%; max-height: auto;" alt="Mars Featured Image"/>
+                    <img src="https://thumbs-prod.si-cdn.com/siD_qGnkeRIixxR67jl0wLysXdo=/800x600/filters:no_upscale():focal(784x228:785x229)/https://public-media.si-cdn.com/filer/e3/b7/e3b77b8f-cb9a-45a8-9c4d-4d1d5ac3ce4f/22118_insight-impression-16.jpg" class="irc_mi" style="max-width:100%; max-height: auto;" alt="Mars Featured Image"/>
                 </div>
                 <!-- Mars Weather -->
                 <div class="col-lg-4 col-md-4 col-sm-12" id="mars-weather">
@@ -48,7 +48,8 @@
                     <div class="row" id="mars-facts">
                         <div class="col-md-12">
                             <h4>Mars Facts</h4>
-                            {{mars.facts | safe}}
+                            <p style="color:white;">
+                            {{mars.facts | safe}}</p>
                         </div>
                     </div>
                 </div>
