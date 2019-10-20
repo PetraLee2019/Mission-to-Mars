@@ -27,16 +27,16 @@ Scrape data from several websites containing Mars news. Different types of data 
 ![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_3.png)
 
 ### Sources:
-[Nasa Mars News](https://mars.nasa.gov/news/)
-- Scrape the latest NASA Mars news using BeautifulSoup, splinter, pandas in a jupyter notebook.
-[JPL Space Images](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
-- Using Splinter to navigate the site and scrape the JPL featured image of mars in full resolution.
-[Mars Weather Twitter](https://twitter.com/marswxreport?lang=en)
-- Visit the Mars Weather Twitter account and scrape the latest Mars weather data.
-[Space Facts](https://space-facts.com/mars/) 
-- Mars facts table from Space-Facts.
-[USGS](]https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
-- From United States Geological Survey Astrogeology to obtain high resulution images for each of Mar's Hemisphere. 
+- [Nasa Mars News](https://mars.nasa.gov/news/)
+Scrape the latest NASA Mars news using BeautifulSoup, splinter, pandas in a jupyter notebook.
+- [JPL Space Images](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
+Using Splinter to navigate the site and scrape the JPL featured image of mars in full resolution.
+- [Mars Weather Twitter](https://twitter.com/marswxreport?lang=en)
+Visit the Mars Weather Twitter account and scrape the latest Mars weather data.
+- [Space Facts](https://space-facts.com/mars/) 
+Mars facts table from Space-Facts.
+- [USGS](]https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
+From United States Geological Survey Astrogeology to obtain high resulution images for each of Mar's Hemisphere. 
 
 ### Run without Heroku:
 - Copy/gather the files in this repo (don't need the .gitignore).
