@@ -35,7 +35,7 @@ Using Splinter to navigate the site and scrape the JPL featured image of mars in
 Visit the Mars Weather Twitter account and scrape the latest Mars weather data.
 - [Space Facts](https://space-facts.com/mars/) 
 Mars facts table from Space-Facts.
-- [USGS](]https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
+- [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
 From United States Geological Survey Astrogeology to obtain high resulution images for each of Mar's Hemisphere. 
 
 ### Run without Heroku:
