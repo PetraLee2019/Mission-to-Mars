@@ -3,8 +3,6 @@
 ## Mars Data Scraping
 A web scraping application which retrieves and presents summary information, the latest news, and images of Mars. A project designed to loads the data into MongoDB and displays the information in a single HTML page. 
 
-![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_1.png?raw=true)
-
 ### Prerequisites
 - The Python libraries flask, flask_pymongo, BeautifulSoup, and splinter must be installed in order for the code to run. The initial data scraping can be run either in a Jupyter Notebook or in Python.
 
@@ -14,7 +12,7 @@ A web scraping application which retrieves and presents summary information, the
 - Database - Mongo DB
 - App Server - Flask
 
-![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_3.png)
+![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_1.png?raw=true)
 
 ### Process:
 Scrape data from several websites containing Mars news. Different types of data included were images of Mars, tweets about the current Mars weather, a table of Mars facts, and headlines with the latest Mars news. After scraping, the data is stored in MongoDB and then loaded it into an HTML file using a Flask template that interfaces with Python and formatted with HTML using Bootstrap.
@@ -26,7 +24,9 @@ Scrape data from several websites containing Mars news. Different types of data 
 - To create HTML file [index.html] that will take the mars data dictionary and display all of the data in the appropriate HTML elements.
 - To create Mongo db and collection to store the scraped data. PyMongo was used to set up mongo connection and to define db and collection.
 
-### Scraping:
+![alt tag](https://github.com/PetraLee2019/Mission_to_Mars/blob/master/Images/Final_Screenshot_3.png)
+
+### Sources:
 [Nasa Mars News](https://mars.nasa.gov/news/)
 - Scrape the latest NASA Mars news using BeautifulSoup, splinter, pandas in a jupyter notebook.
 [JPL Space Images](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
