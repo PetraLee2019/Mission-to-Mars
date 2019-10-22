@@ -15,7 +15,7 @@ Scrape data from several websites containing Mars news. Different types of data 
 - To create Mongo db and collection to store the scraped data. PyMongo was used to set up mongo connection and to define db and collection.
 
 ### Prerequisites
-- The Python libraries flask, flask_pymongo, BeautifulSoup, and splinter must be installed in order for the code to run. The initial data scraping can be run either in a Jupyter Notebook or in Python.
+- The Python libraries flask, flask_pymongo, BeautifulSoup, and splinter must be installed in order for the code to run. The initial data scraping can be run either in a Jupyter Notebook or in Python
 
 ### Technology Stack 
 - HTML, CSS, BootStrap, Jupyter, Python
@@ -36,9 +36,9 @@ Mars facts table from Space-Facts.
 From United States Geological Survey Astrogeology to obtain high resulution images for each of Mar's Hemisphere. 
 
 ### Run without Heroku:
-- Copy/gather the files in this repo (don't need the .gitignore).
-- Start a MongoDB daemon in the terminal, then start mongo instance.
-- Run the app.py in the terminal. Copy the local url to your web browser.
+- Copy/gather the files in this repo (don't need the .gitignore)
+- Start a MongoDB daemon in the terminal, then start mongo instance
+- Run the app.py in the terminal. Copy the local url to your web browser
 
 
 
